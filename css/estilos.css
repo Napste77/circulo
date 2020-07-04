@@ -12,20 +12,17 @@ body {
 
 header {
   background-color: #ffbf31;
-  width: 100%;
-  height: auto;
   width: 100%; }
   header nav {
     width: 100%;
     height: 4em;
     margin: 3em auto; }
     header nav .logo {
-      margin-left: 10%; }
-      header nav .logo a {
-        height: 4em;
-        position: relative; }
-        header nav .logo a img {
-          width: 90%; }
+      margin-left: 10%;
+      margin-top: -2em;
+      max-height: 2em; }
+      header nav .logo img {
+        width: 90%; }
     header nav .der {
       margin: 0 auto;
       text-align: center; }
@@ -74,5 +71,7 @@ body section {
       text-decoration: none;
       font-size: 1em;
       display: none; }
+  body section .servicios ul {
+    margin-top: 2em; }
 
 /*# sourceMappingURL=estilos.css.map */
