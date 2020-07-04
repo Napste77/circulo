@@ -6,9 +6,17 @@ body {
   margin: 0 auto;
   font-size: 1em;
   background-color: #ffbf31; }
+  body p {
+    font-family: "Roboto", sans-serif; }
   body section .rayo {
     margin: 0 auto;
     text-align: center; }
+  body section .sonrisa {
+    margin: 2em auto;
+    text-align: center; }
+  body section h2, body section h3, body section h4, body section h5 {
+    font-size: 2em;
+    font-family: "DM Serif Display", serif; }
 
 header {
   background-color: #ffbf31;
@@ -34,21 +42,21 @@ header {
         header nav .der ul li:first-child {
           border: 0px; }
           header nav .der ul li:first-child a {
+            font-family: "Roboto", sans-serif;
             padding: auto 2em;
             margin: auto 2em; }
   header .marca {
-    width: 90%;
-    margin-left: 0;
+    width: 50%;
     margin-top: 4em;
-    text-align: left; }
+    padding-left: 15%;
+    text-align: right; }
     header .marca p {
       color: #000;
-      font-size: 3em;
       text-align: left;
       line-height: 1em;
-      font-family: "DM Serif Display", serif;
-      font-size: 3em;
-      font-weight: 400; }
+      font-family: "Roboto", sans-serif;
+      font-weight: 300i;
+      font-size: 3.5em; }
     header .marca h1 {
       color: #000;
       font-size: 4em;
@@ -60,6 +68,9 @@ header {
       header .marca h1 span {
         display: block;
         font-size: 1em; }
+  header .dibujo {
+    width: 50%;
+    text-align: left; }
 
 body section {
   width: 100%; }
@@ -73,5 +84,21 @@ body section {
       display: none; }
   body section .servicios ul {
     margin-top: 2em; }
+  body section .contacto {
+    margin-top: 2em; }
+    body section .contacto .texto {
+      margin-top: 3em; }
+    body section .contacto form {
+      margin: 2em auto; }
+    body section .contacto .marcomensaje textarea {
+      min-height: 6em; }
+    body section .contacto .center {
+      border: 2px #000 solid;
+      border-radius: 10px;
+      margin: 1.5em auto;
+      text-align: center; }
+  body section .confian h5 {
+    font-size: 2em;
+    margin: 0 auto; }
 
 /*# sourceMappingURL=estilos.css.map */
