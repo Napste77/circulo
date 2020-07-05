@@ -2,13 +2,17 @@
   font-size: 16px;
   background-color: #ffbf31; }
 
+html {
+  height: 100%; }
+
 body {
   margin: 0 auto;
   font-size: 1em;
-  background-color: #ffbf31; }
+  background-color: #ffbf31;
+  height: 100%; }
   body p {
     font-family: "Roboto", sans-serif; }
-  body section .rayo {
+  body section .rayo, body section .logof, body section .telef, body section .redes {
     margin: 0 auto;
     text-align: center; }
   body section .sonrisa {
@@ -17,6 +21,8 @@ body {
   body section h2, body section h3, body section h4, body section h5 {
     font-size: 2em;
     font-family: "DM Serif Display", serif; }
+  body footer .logof, body footer .telef, body footer .redes {
+    margin: 1.5em auto; }
 
 header {
   background-color: #ffbf31;
@@ -101,6 +107,30 @@ body section {
       text-align: center; }
   body section .confian h5 {
     font-size: 2em;
+    margin: 0 auto; }
+
+footer {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center; }
+  footer .logof {
+    width: 99%; }
+    footer .logof img {
+      width: 10%;
+      height: auto; }
+  footer .telef a {
+    color: #000;
+    font-size: 1.5em; }
+    footer .telef a i {
+      color: #FFF;
+      font-size: 2em; }
+  footer .redes a {
+    margin-right: 2em; }
+  footer .redes i {
+    color: #FFF;
+    font-size: 2.5em;
     margin: 0 auto; }
 
 /*# sourceMappingURL=estilos.css.map */
