@@ -118,7 +118,8 @@ footer {
   footer .logof {
     width: 99%; }
     footer .logof img {
-      width: 10%;
+      width: 8em;
+      max-width: 30%;
       height: auto; }
   footer .telef a {
     color: #000;
