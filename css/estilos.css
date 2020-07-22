@@ -51,16 +51,18 @@ header {
       margin: 0 auto;
       text-align: center; }
       header nav .der ul {
-        margin: 0 auto; }
+        margin: 0 auto;
+        padding: 0; }
         header nav .der ul li {
-          margin-left: 0.5em;
-          border-left: solid 2px #FFF; }
+          border-left: solid 2px #FFF;
+          text-align: center; }
         header nav .der ul li:first-child {
           border: 0px; }
           header nav .der ul li:first-child a {
+            margin-left: 0.5em;
             font-family: "Roboto", sans-serif;
-            padding: auto 2em;
-            margin: auto 2em; }
+            margin: auto 30px;
+            text-align: center; }
 
 .marca {
   width: 50%;
@@ -140,6 +142,8 @@ footer {
     footer .logof img {
       width: 8em;
       height: auto; }
+  footer .telef .fab {
+    font-size: 1.2em; }
   footer .telef a {
     color: #000;
     font-size: 1.5em; }
@@ -176,6 +180,22 @@ footer {
       text-align: center; } }
 @media (max-width: 768px) {
   .hoja, .hojah {
-    display: none; } }
+    display: none; }
+
+  .rayo {
+    margin: -2em auto; }
+
+  .imgr {
+    width: 75%;
+    height: auto;
+    margin: -3em auto 2em auto; }
+    .imgr img {
+      width: 90%; }
+
+  h2, h3, h4, h5, h6 {
+    text-align: center; }
+
+  p {
+    text-align: justify; } }
 
 /*# sourceMappingURL=estilos.css.map */
