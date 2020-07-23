@@ -39,14 +39,14 @@ header {
   max-height: 9em; }
   header nav {
     width: 100%;
-    margin: 0.5em auto;
-    background-color: #ffbf31;
-    margin: 0; }
+    margin: 0 auto;
+    background-color: #ffbf31; }
     header nav .fixed-top {
       padding: 0 16px;
-      height: 100px;
+      height: 110px;
       z-index: 1030; }
     header nav .logo {
+      padding-top: 0.6em;
       margin-left: 20%;
       margin-top: -2em;
       max-height: 2em; }
