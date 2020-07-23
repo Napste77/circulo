@@ -42,7 +42,7 @@ header {
     height: 4em;
     margin: 0.5em auto; }
     header nav .logo {
-      margin-left: 10%;
+      margin-left: 20%;
       margin-top: -2em;
       max-height: 2em; }
       header nav .logo img {
@@ -106,8 +106,17 @@ body section {
       text-decoration: none;
       font-size: 1em;
       display: none; }
+  body section .servicios h3 {
+    margin-left: -0.7em; }
   body section .servicios ul {
-    margin-top: 2em; }
+    display: inline-block;
+    margin-top: 2em;
+    padding: 0;
+    text-align: left; }
+    body section .servicios ul li {
+      margin: 0;
+      padding: 0;
+      text-align: left; }
   body section .contacto {
     margin-top: 2em; }
     body section .contacto .texto {
@@ -168,16 +177,6 @@ footer {
   margin-top: 0;
   z-index: -10; }
 
-@media (max-width: 576px) {
-  .esp {
-    margin-bottom: 1.5em; }
-
-  .dibujo {
-    width: 90%;
-    margin: 2em auto; }
-    .dibujo img {
-      max-width: 100%;
-      text-align: center; } }
 @media (max-width: 768px) {
   .hoja, .hojah {
     display: none; }
@@ -192,10 +191,24 @@ footer {
     .imgr img {
       width: 90%; }
 
-  h2, h3, h4, h5, h6 {
-    text-align: center; }
+  h2, h4, h5, h6 {
+    text-align: center;
+    margin: 0 auto 1em auto; }
 
   p {
     text-align: justify; } }
+@media (max-width: 576px) {
+  .esp {
+    margin-bottom: 1.5em; }
+
+  .dibujo {
+    width: 90%;
+    margin: 2em auto; }
+    .dibujo img {
+      max-width: 100%;
+      text-align: center; }
+
+  .servicios h3 {
+    margin-left: 0em; } }
 
 /*# sourceMappingURL=estilos.css.map */
