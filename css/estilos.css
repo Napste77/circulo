@@ -129,14 +129,16 @@ body section {
     body section .contacto form {
       margin: 2em auto; }
     body section .contacto .marcomensaje textarea {
-      min-height: 6em; }
+      max-height: 7em;
+      min-height: 7em; }
     body section .contacto .center {
-      border: 2px #000 solid;
-      border-radius: 10px;
-      margin: 1.5em auto;
       text-align: center; }
       body section .contacto .center button {
-        background: none; }
+        width: 10em;
+        border: 2px #000 solid;
+        border-radius: 10px;
+        margin: 1.5em auto;
+        background: transparent; }
   body section .confian h5 {
     font-size: 2em;
     margin: 0 auto; }
@@ -181,12 +183,14 @@ footer {
   margin-right: 0;
   margin-top: 0;
   z-index: -10; }
-
+/*@media (min-width: 986px) {
+  .hoja, .hojah {
+    display: none; }}*/
 @media (max-width: 768px) {
   .hoja, .hojah {
     display: none; }
-
-  .rayo {
+  
+    .rayo {
     margin: -2em auto; }
 
   .imgr {
@@ -196,12 +200,16 @@ footer {
     .imgr img {
       width: 90%; }
 
-  h2, h4, h5, h6 {
+  h2, h3, h4, h5, h6 {
     text-align: center;
     margin: 0 auto 1em auto; }
 
   p {
-    text-align: justify; } }
+    text-align: justify; }
+  .listamin{
+    text-align: center;
+    margin: auto 2.5em;
+  } }
 @media (max-width: 576px) {
   .esp {
     margin-bottom: 1.5em; }
